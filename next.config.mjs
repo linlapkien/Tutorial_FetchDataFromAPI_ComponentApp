@@ -13,6 +13,7 @@ const nextConfig = {
         filename: 'static/chunks/remoteEntry.js',
         exposes: {
           './CocktailCard': './pages/CocktailCard.tsx',
+          './SetQuantity': './pages/SetQuantity.tsx',
         },
         extraOptions: {
           debug: false, // `false` by default
